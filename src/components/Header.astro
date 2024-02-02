@@ -17,7 +17,7 @@ const { activeNav } = Astro.props;
     integrity="sha384-WsHMgfkABRyG494OmuiNmkAOk8nhO1qE+Y6wns6v+EoNoTNxrWxYpl5ZYWFOLPCM"
     crossorigin="anonymous"
   />
-  <a id="skip-to-content" href="#main-content">Skip to content</a>
+  <a id="skip-to-content" href="#main-content">Saltar a contenido</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/" class="logo whitespace-nowrap">
@@ -26,8 +26,6 @@ const { activeNav } = Astro.props;
             <img
               src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
               alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
             />
           ) : (
             SITE.title
@@ -63,17 +61,17 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              Posts
+              Publicaciones
             </a>
           </li>
           <li>
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
-              Tags
+              Etiquetas
             </a>
           </li>
           <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              About
+              Sobre mí
             </a>
           </li>
           <li>
@@ -82,8 +80,8 @@ const { activeNav } = Astro.props;
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               } flex`}
-              ariaLabel="search"
-              title="Search"
+              ariaLabel="Busqueda"
+              title="Busqueda"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +99,7 @@ const { activeNav } = Astro.props;
                 <button
                   id="theme-btn"
                   class="focus-outline"
-                  title="Toggles light & dark"
+                  title="Oscuro - Claro"
                   aria-label="auto"
                   aria-live="polite"
                 >
@@ -130,7 +128,7 @@ const { activeNav } = Astro.props;
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
   }
   .top-nav-wrap {
-    @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
+    @apply relative flex w-full items-start justify-between p-5 sm:items-center sm:py-8;
   }
   .logo {
     @apply absolute py-1 text-xl font-semibold sm:static sm:text-2xl;
@@ -192,6 +190,30 @@ const { activeNav } = Astro.props;
   }
   .menu-icon.is-active .close {
     @apply opacity-100;
+  }
+  /* Para móviles, un tamaño predeterminado */
+  .logo img {
+    width: 9vw; /* Ajusta este valor según necesites */
+    min-width: 30px; /* Asegura que el logo no sea demasiado pequeño */
+    max-width: 50px; /* Asegura que el logo no sea demasiado grande */
+  }
+
+  /* Para tablets */
+  @media (min-width: 768px) {
+    .logo img {
+      width: 15vw; /* Tamaño más grande para tablets */
+      min-width: 40px;
+      max-width: 100px;
+    }
+  }
+
+  /* Para desktops */
+  @media (min-width: 1024px) {
+    .logo img {
+      width: 10vw; /* Tamaño aún más grande para desktops */
+      min-width: 50px;
+      max-width: 100px;
+    }
   }
 </style>
 

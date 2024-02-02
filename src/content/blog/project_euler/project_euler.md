@@ -1,7 +1,7 @@
 ---
 author: Hugo Andrés Amaya Chairez
 pubDatetime: 2024-02-02T06:26:53Z
-modDatetime:
+modDatetime: 2024-02-02T06:26:53Z
 title: Explorando Project Euler
 slug: first-post-euler
 featured: true

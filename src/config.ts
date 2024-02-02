@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Hugo Andres Amaya Chairez",
   desc: "Personal blog ussing a minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Hugo Amaya",
+  title: "HugoAndres Blog",
   ogImage: "109373705.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
@@ -17,10 +17,9 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  // Modifiqué, ahora se modifica en Header.astro para más personalización
 };
 
 export const SOCIALS: SocialObjects = [

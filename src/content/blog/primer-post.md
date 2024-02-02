@@ -1,6 +1,6 @@
 ---
-author: Sat Naing
-pubDatetime: 2023-01-01T15:22:00Z
+author: GPT 4
+pubDatetime: 2024-02-01T15:22:00Z
 modDatetime: 2024-01-01T09:12:47.400Z
 title: Ya pude poner LaTeX a los MARKDOWN !!!
 slug: first-post
@@ -8,7 +8,7 @@ featured: true
 draft: false
 tags:
   - math
-description: No se que poner qui de texto, ´´  '';;;;ñññññ post prueba
+description: Publicación de prueba
 ---
 
 # Serie de Taylor
