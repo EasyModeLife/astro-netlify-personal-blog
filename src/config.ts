@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Hugo Andres Amaya Chairez",
   desc: "Blog personal de publicaciones interesantes",
   title: "HugoAndres Blog",
-  ogImage: "109373705.jpg",
+  ogImage: "100609315.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
@@ -37,7 +37,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Instagram",
-    href: "https://github.com/EasyModeLife",
+    href: "https://www.instagram.com/mago_astra/",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
@@ -49,7 +49,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "1152106@alumnos.ujed.mx",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
