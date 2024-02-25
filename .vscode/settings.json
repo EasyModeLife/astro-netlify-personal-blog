@@ -1,4 +1,9 @@
 {
     "CodeGPT.apiKey": "CodeGPT Plus Beta",
-    "svg.preview.background": "custom"
+    "svg.preview.background": "custom",
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": "on"
+        }
+    }
 }

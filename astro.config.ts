@@ -28,6 +28,7 @@ export default defineConfig({
         remarkCollapse,
         {
           test: "Table of contents",
+          summary: "Tabla de contenidos",
         },
       ],
       remarkMath,
