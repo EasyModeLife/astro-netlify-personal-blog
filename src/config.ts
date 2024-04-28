@@ -5,7 +5,8 @@ export const SITE: Site = {
   author: "Hugo Andres Amaya Chairez",
   desc: "Blog personal de publicaciones interesantes",
   title: "HugoAndres Blog",
-  ogImage: "100609315.jpg",
+  ogImage:
+    "https://img3.gelbooru.com//samples/4f/e3/sample_4fe324eaec1f6d594fcd1eda231f87a8.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
