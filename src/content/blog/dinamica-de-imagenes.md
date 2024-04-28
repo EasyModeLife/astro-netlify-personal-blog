@@ -1,13 +1,13 @@
 ---
 title: Alojamiento web gratis
 author: Hugo Andrés Amaya Chairez
-pubDatetime: 2024-04-28T23:28:25.307Z
-slug: como-hostear-barato
+pubDatetime: 2024-04-21T10:11:06.130Z
+slug: "como-hostear-barato"
 featured: true
-draft: false
+draft:
 tags:
   - Hosting
-description: Cómo alojar sin gastar dinero, sin explicación a fondo
+description: "Cómo alojar sin gastar dinero, sin explicación a fondo"
 ---
 
 # El host más barato es el host gratis
