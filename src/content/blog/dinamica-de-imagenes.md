@@ -6,7 +6,6 @@ slug: como-hostear-barato
 featured: false
 draft: false
 tags:
-  - Imágenes
   - Hosting
 description: Cómo alojar sin gastar dinero, sin explicación a fondo
 ---
