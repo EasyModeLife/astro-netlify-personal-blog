@@ -4,7 +4,7 @@ author: Hugo Andrés Amaya Chairez
 pubDatetime: 2024-04-21T10:11:06.130Z
 slug: "como-hostear-barato"
 featured: true
-draft:
+draft: false
 tags:
   - Hosting
 description: "Cómo alojar sin gastar dinero, sin explicación a fondo"
